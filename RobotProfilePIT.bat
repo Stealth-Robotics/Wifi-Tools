@@ -4,6 +4,6 @@ echo.
 
 netsh int ip set address "Local Area Connection" source=dhcp
 
-netsh int ip set address "Wireless Network Connection" static 10.40.89.5 255.255.255.0 10.40.89.1 0
+netsh int ip set address "Wireless Network Connection" static 10.40.89.5 255.255.255.0 10.40.89.1 1
 
 pause
